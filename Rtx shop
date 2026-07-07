@@ -1,0 +1,146 @@
+index.html
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RTX Sound | Car Audio & Subs SA</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family: 'Segoe UI', Arial, sans-serif}
+  body{background:#1a1a1a;color:#fff;line-height:1.6}
+  a{text-decoration:none;color:#fff}
+ .container{max-width:1200px;margin:auto;padding:20px}
+  
+  /* Colors: Grey #2a2a2a, White #fff, Red #E10600 */
+  :root{--grey:#2a2a2a; --white:#fff; --red:#E10600;}
+  
+  /* Header */
+  header{background:var(--grey);position:sticky;top:0;z-index:10;border-bottom:3px solid var(--red)}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:15px 20px}
+  nav h1{color:var(--red);font-size:26px;letter-spacing:1px}
+  nav ul{display:flex;list-style:none;gap:25px}
+  nav ul li a:hover{color:var(--red)}
+  
+  /* Hero */
+ .hero{background:linear-gradient(rgba(0,0,0,0.7), rgba(230,6,0,0.2)), url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200') center/cover; 
+        text-align:center;padding:100px 20px}
+ .hero h2{font-size:42px;margin-bottom:10px;color:var(--white)}
+ .hero p{font-size:18px;margin-bottom:25px;color:#ddd}
+ .btn{background:var(--red);padding:14px 28px;border-radius:6px;font-weight:bold;display:inline-block;transition:0.3s}
+ .btn:hover{background:#b30000;transform:scale(1.05)}
+  
+  /* Products */
+ .products{padding:60px 20px;background:var(--grey)}
+ .products h3{text-align:center;font-size:32px;margin-bottom:10px;color:var(--red)}
+ .products.sub{text-align:center;margin-bottom:40px;color:#bbb}
+ .grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));gap:25px}
+ .card{background:#111;padding:15px;border-radius:12px;border:1px solid #333;transition:0.3s}
+ .card:hover{border-color:var(--red);transform:translateY(-5px)}
+ .card img{width:100%;height:250px;object-fit:cover;border-radius:8px;margin-bottom:12px;border:2px solid var(--grey)}
+ .badge{background:var(--red);padding:4px 10px;border-radius:4px;font-size:12px;font-weight:bold;display:inline-block;margin-bottom:8px}
+ .card h4{color:var(--white);margin-bottom:5px;font-size:16px}
+ .brand{color:#aaa;font-size:13px;margin-bottom:8px}
+ .price{font-size:22px;font-weight:bold;color:var(--red);margin:10px 0}
+ .old-price{text-decoration:line-through;color:#888;font-size:14px;margin-left:8px}
+ .whatsapp-btn{background:#25D366;text-align:center;padding:12px;border-radius:6px;display:block;font-weight:bold}
+ .whatsapp-btn:hover{background:#1ebe5a}
+  
+  /* About */
+ .about{background:#111;padding:60px 20px;text-align:center}
+ .about h3{color:var(--red);font-size:28px;margin-bottom:15px}
+  
+  /* Footer */
+  footer{background:#000;text-align:center;padding:30px 20px;border-top:3px solid var(--red)}
+ .contact{color:var(--red);font-size:20px;font-weight:bold}
+  
+  @media(max-width:768px){nav ul{display:none}.hero h2{font-size:28px}}
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="container">
+    <h1>RTX SOUND</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="container">
+    <h2>LOUD BASS. CLEAN SOUND. BEST DEALS.</h2>
+    <p>Car Audio, Subs, Amps & Speakers Delivered Across SA</p>
+    <a href="#products" class="btn">Shop Deals Now</a>
+  </div>
+</section>
+
+<section class="products" id="products">
+  <div class="container">
+    <h3>Hot Deals This Week</h3>
+    <p class="sub">Up to 36% OFF on Lumina Audio</p>
+    <div class="grid">
+      
+      <div class="card">
+        <img src="/mnt/data/An92v-QmiJu9P-F5mt0j7N-jC8qK9pwo6c4d7jQSq-DoRyj_uQUlLC0p9s-fVoApBg1Z65dgdC8y7IuzruK_pK4GxJMOKX7JpiEZ04nL-Ey6LJOJB7_YBFut" alt="Lumina Sub">
+        <span class="badge">36% OFF</span>
+        <h4>Lumina Audio Thunder Series 10" Subwoofer [LBW10.4D]</h4>
+        <p class="brand">Lumina Audio</p>
+        <div class="price">R399 <span class="old-price">R625</span></div>
+        <a href="https://wa.me/27764873815?text=Hi RTX Sound, I want the Lumina Thunder 10 Sub for R399" class="whatsapp-btn">Order on WhatsApp</a>
+      </div>
+      
+      <div class="card">
+        <img src="/mnt/data/An92v-QmiJu9P-F5mt0j7N-jC8qK9pwo6c4d7jQSq-DoRyj_uQUlLC0p9s-fVoApBg1Z65dgdC8y7IuzruK_pK4GxJMOKX7JpiEZ04nL-Ey6LJOJB7_YBFut" alt="Eclipse Amp">
+        <span class="badge">21% OFF</span>
+        <h4>Eclipse Class D Monoblock [EA-MB8200.1]</h4>
+        <p class="brand">Eclipse</p>
+        <div class="price">R999 <span class="old-price">R1,265</span></div>
+        <p style="color:#25D366;font-size:13px;margin-bottom:8px">FREE Delivery</p>
+        <a href="https://wa.me/27764873815?text=Hi RTX Sound, I want the Eclipse Monoblock for R999" class="whatsapp-btn">Order on WhatsApp</a>
+      </div>
+      
+      <div class="card">
+        <img src="/mnt/data/An92v-QmiJu9P-F5mt0j7N-jC8qK9pwo6c4d7jQSq-DoRyj_uQUlLC0p9s-fVoApBg1Z65dgdC8y7IuzruK_pK4GxJMOKX7JpiEZ04nL-Ey6LJOJB7_YBFut" alt="Sub Box">
+        <h4>10" Double Subwoofer Box Enclosure Ported</h4>
+        <p class="brand">RTX Sound</p>
+        <div class="price">R795</div>
+        <p style="color:#25D366;font-size:13px;margin-bottom:8px">FREE Delivery with Takealot More</p>
+        <a href="https://wa.me/27764873815?text=Hi RTX Sound, I want the Double 10 Sub Box for R795" class="whatsapp-btn">Order on WhatsApp</a>
+      </div>
+      
+      <div class="card">
+        <img src="/mnt/data/An92v-QmiJu9P-F5mt0j7N-jC8qK9pwo6c4d7jQSq-DoRyj_uQUlLC0p9s-fVoApBg1Z65dgdC8y7IuzruK_pK4GxJMOKX7JpiEZ04nL-Ey6LJOJB7_YBFut" alt="Lumina Speakers">
+        <span class="badge">35% OFF</span>
+        <h4>Lumina Audio 5.25" Atom Series Speaker [LA504]</h4>
+        <p class="brand">Lumina Audio</p>
+        <div class="price">R260 <span class="old-price">R400</span></div>
+        <p style="color:#25D366;font-size:13px;margin-bottom:8px">FREE Delivery</p>
+        <a href="https://wa.me/27764873815?text=Hi RTX Sound, I want the Lumina 5.25 Atom Speakers for R260" class="whatsapp-btn">Order on WhatsApp</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container">
+    <h3>Why Shop With RTX Sound</h3>
+    <p>Genuine Car Audio • Best Prices in SA • Expert Advice on WhatsApp<br>
+    Nationwide Courier • 6 Month Warranty on Amps</p>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="container">
+    <p class="contact">WhatsApp: +27 76 487 3815</p>
+    <p>Email: sales@rtxsound.co.za</p>
+    <p>Thulamela, Limpopo | We Courier Nationwide</p>
+    <p style="margin-top:15px;color:#888">© 2026 RTX SOUND. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
